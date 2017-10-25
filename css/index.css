@@ -142,7 +142,7 @@ header {
                     }
 
 /* Medium screens */
-@media all and (min-width: 600px) {
+@media all and (min-width: 1600px) {
     header > div#logo > div#navToggle {
         display: none;    
     }
@@ -299,4 +299,15 @@ img.icon {
 	font-size: 18px;
 	line-height: 34px;
 	/* background-color: #000000; */
+}
+
+.resume-list {
+	line-height: 125%;
+	margin-left: 30px;
+	list-style: circle;
+}
+
+p.reference {
+padding-left: 2em;
+text-indent: -2em;
 }
